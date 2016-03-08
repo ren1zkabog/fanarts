@@ -1,0 +1,185 @@
+body {
+	padding-top: 65px;
+	background-image: url(img/white_wave1.jpg);
+	background-attachment: fixed;
+
+}
+@font-face {
+    font-family: AgitProp; /* Имя шрифта */
+    src: url(fonts/m_AgitPropMedium.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: neuropol; /* Имя шрифта */
+    src: url(fonts/Neuropol.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: TickerTape; /* Имя шрифта */
+    src: url(fonts/TickerTape.ttf); /* Путь к файлу со шрифтом */
+   }
+
+.container {
+ 	
+
+ 	display: table;
+	
+	color: #000;
+	font-size: 14px;
+	
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.7);
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.7);
+	padding: 0px 12px 0px 12px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+.news_info_main {
+	
+	float: left;
+	display: table;
+	margin-right: 20px;
+	width: 49%;
+}
+.news_details {
+	margin-top: 20px;
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.7);
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.7);
+	padding: 10px 12px 0px 12px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+	float: left;
+	width: 49%;
+	text-align: center;
+}
+
+.news_info {
+	display: table;
+	
+
+}
+.news_info img {
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin: 0px 7px 7px 0px;
+}
+
+.ff {
+	font-size: 16px;
+}
+h2 {
+	font-family: TickerTape;
+}
+
+.collapse {
+	
+	font-family: Neuropol;
+	color: #000;
+	letter-spacing: 1;
+	line-height: 1.5;
+	font-size: 14px;
+	margin-top: 8px;
+	padding: 8px;
+	border: 1px dashed white;
+}
+b {
+	color: #1e51b0;
+	font-weight: bold;
+}
+.but_ton{
+	padding: 10px;
+	background-color: #1e51b0;
+	border: 1px;
+	border-radius: 5px;
+	color: white;
+}
+.but_ton:hover {
+	opacity: 0.8;
+}
+.name_sw {
+	color: #2364db;
+	font-size: 16px;
+	font-family: TickerTape;
+}
+.span_names{
+	margin-left: 340px; 
+}
+.span_names a{
+	color: #2364db;
+}
+.l_span_name{
+	float: left;
+	margin-right: 40px;
+
+}
+.r_span_name {
+	float: left;
+}
+.span_names_info {
+	text-align: center;
+}
+.span_names_info button{
+	opacity: 0.8;
+	background-color: white;
+	border: 1px dashed blue;
+	border-radius: 3px;
+	text-align: center;
+	color: #2364db;
+}
+.span_names_info button:hover {
+	opacity: 1;
+}
+.span_names_info .more_i:hover {
+	color: #1e51b0;
+}
+.span_names_info dl> dt{
+
+	text-decoration: underline;
+	color: #2364db;
+	text-align: left;
+	font-size: 18px;
+}
+.span_names_info dl> dd{
+	text-align: left;
+	font-size: 16px;
+}
+.span_names_info ul> li{
+
+	
+	color: #2364db;
+	text-align: left;
+	font-size: 18px;
+}
+
+.span_names_info img {
+	border: 1px solid black;
+	border-radius: 2px;
+	padding: 3px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 350px;
+	height: 230px;
+}
+.span_names_info p{
+	font-size: 16px;
+
+}
+.feedback p{
+	color: #2364db;
+	font-family: TickerTape;
+}
+
+.image_decor{
+	padding: 2px;
+	border: 1px solid black;
+	border-radius: 2px;
+	opacity: 0.8;
+	background-color: black;
+	width: auto;
+	height: 200px;
+	max-height: 200px;
+	max-width: 250px;
+	opacity: 0.8;
+}
+.image_decor:hover {
+	opacity: 1;
+}
+

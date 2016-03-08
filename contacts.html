@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="star wars, fan, arts, rebels, clone wars, trilogy" />
+	<title>Star-Wars Fan Site</title>
+	
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="overlay_popup_sw.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src="js/bootstrap.js"></script>
+  	<link rel="stylesheet" type="text/css" href="h-style.css">
+	<link rel="stylesheet" type="text/css" href="news.css">
+	<link rel="icon" href="img/d_star.png" type="image/x-icon" />
+   	<style>
+      #map {
+        width: 500px;
+        height: 400px;
+        border-radius: 10px;
+      }
+    </style>
+
+</head>
+<body>
+	<div class="head">
+			<a href="houme.html" class="a-l">Home</a>
+
+			<a href="news.html"   class="a-l">News</a>
+			<a href="starwars.html"  class="a-l">Star-Wars</a>
+
+			<span class="a-m">
+				<a href="contacts_l.html" title="Do..or do not. There is no try.">
+					<img src="img/1side.png" style="width: 28px; height: 28px; opacity: 1;vertical-align: middle;">
+				</a>
+
+				<span style="color: #fff;">Choose-your-side</span>
+
+				<a href="contacts.html" title="SHOW ME YOUR DARKNESS...">
+					<img src="img/sithq.png" style="width: 26px; height: 26px; opacity: 1; vertical-align: middle;">
+				</a>
+			</span>
+
+			<span class="right">
+				<a href="fanarts.html"  class="a-r">Fan-Arts</a>
+				
+				<a href="contacts.html" id="opened" id="f-r" class="a-r">Contacts</a>
+			</span>
+	</div>
+
+	<div class="container" id="container" style="padding-top: 20px; padding-bottom: 10px;">
+		<div style="float: left;margin-left: 150px;">
+			<div id="map"></div>
+    			<script>
+      			function initMap() {
+        		var mapDiv = document.getElementById('map');
+        		var map = new google.maps.Map(mapDiv, {
+          		center: {lat: 47.0187425, lng: 28.8235475},
+         		 zoom: 15
+        		});
+      			}
+    			</script>
+    		
+    			<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        			async defer>
+
+        		</script>
+        	
+        </div>
+        <div class="feedback" style="float: left; margin-left: 120px; margin-top: 10px;">
+        		<h2>General information:</h2>
+        		<p>Author:</p>
+        		<span>Lapteacru Dumitru Levan</span><hr>
+        		<p>Skype:</p>
+        		<span>lector3run</span><hr>
+        		<p>e-mail:</p>
+        		<span>lapteacrudumitru@aol.com</span><hr>
+        		<p>Adress:</p>
+        		<span>Moldova, Republic of<br>
+        		Chisinau<br>
+        		Vadul lui Voda<br>
+        		Eminescu 13/1</span><hr>
+        		<p>Phone:</p>
+        		<span>(373)78756412</span>
+
+
+
+        </div>
+	</div>
+
+	<div class="bot" style="margin-top: 102px;">
+ 			<h4 class="h4_bot" style="margin: 0; text-align: none;">&copy; This page created for STAR-WARS fans!<br>Powered by Lapteacru Dumitru </h4>
+ 			<a href="#container"><div class="h4_bot1">
+ 				<img src="img/up-arrow.png" style="width: 50px; height: 50px;">
+ 			</div></a>
+ 		<img src="img/darthmaul.png" style="width: 350px; height: 250px; top: 20px; right: 95px; opacity: 0.15; z-index: 8;">
+
+ 		<div class="share_">
+ 			<h4 style="margin: 0;">Share:</h4>
+				<!-- Email -->
+    		<a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://FAN-ART-webpage.com">
+        		<img class="share" src="img/soc/Email.png" alt="Email" style="margin-left: 35px;" />
+    		</a>
+ 
+    			<!-- Facebook -->
+    		<a href="http://www.facebook.com/sharer.php?u=https://FAN-ART-webpage.com" target="_blank">
+        		<img  class="share" src="img/soc/Facebook.png" alt="Facebook" />
+    		</a>
+    
+    			<!-- Google+ -->
+    		<a href="https://plus.google.com/share?url=https://FAN-ART-webpage.com" target="_blank">
+       			 <img class="share" src="img/soc/Google+.png" alt="Google" />
+    		</a>
+
+    			<!-- Twitter -->
+   			 <a href="https://twitter.com/share?url=https://FAN-ART-webpage.com" target="_blank">
+        		<img class="share" src="img/soc/Twitter.png" alt="Twitter" />
+    		</a>
+    
+    			<!-- VK -->
+    		<a href="http://vkontakte.ru/share.php?url=https://FAN-ART-webpage.com" target="_blank">
+        		<img class="share" src="img/soc/vkontakte.png" alt="VK" />
+    		</a>
+    		
+    	</div>
+ 	</div>
+</body>
+</html>
